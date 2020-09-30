@@ -1,0 +1,121 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.navbar-brand {
+  margin-left: 40px;
+}
+
+.navbar-nav {
+  margin-right: 30px;
+}
+
+.navbar-dark {
+  padding: 0.5% 5% 0.5%;
+  background-color: #010038;
+}
+
+.btn-secondary {
+  color: rgb(255 255 255 / 0.5);
+  background-color: #010038;
+  border:0px;
+}
+
+.btn-secondary:hover {
+  color: rgb(255 255 255 / 1);
+  background-color: #010038;
+
+}
+
+.container-fluid {
+  padding: 3% 8% 3%;
+}
+
+.topsection {
+  padding: 3% 0 3%;
+  color: #ffffff;
+  background-image: linear-gradient(#293a80, #537ec5);
+  background-color: #293a80;
+}
+
+h1 {
+  margin-top: 10px;
+  text-align: left;
+  font-family: 'Cormorant SC', serif;
+  font-size: 5.5rem;
+}
+
+@media(max-width:992px) {
+  h1 {
+    text-align: center;
+  }
+}
+
+h2 {
+  text-align: left;
+  font-family: 'Cormorant SC', serif;
+}
+
+@media(max-width:992px) {
+  h2 {
+    text-align: center;
+  }
+}
+
+h3 {
+  font-family: 'Cormorant SC', serif;
+  font-size: 2rem;
+  margin: 3% 0 3%;
+  font-weight: 500;
+}
+
+.devices {
+  width: 40%;
+}
+
+.middlesection {
+  color: #ffffff;
+  background-image: linear-gradient(#537ec5, #537ec5, #ffffff);
+  background-color: #537ec5;
+  padding: 3% 6% 3%;
+}
+
+.salesp {
+  text-align: left;
+  margin: 3% 0 3%;
+  font-size: 1.1rem;
+}
+
+.code-image {
+  width: 85%;
+}
+
+.skills {
+  margin: 3% 3% 3%;
+  color: #537ec5;
+  background-color: #ffffff;
+}
+
+.skill-image {
+  width: 30%;
+  margin: 10% 0 10%;
+}
+
+.skill-image:hover {
+  opacity: 0.7;
+}
+
+.pricing {
+  padding: 3% 8% 3%;
+  color: #ffffff;
+  background-color: #537ec5;
+}
+
+.card {
+  border-color: #f9f7f7;
+  color: #f1f3f8;
+  background-color: #537ec5;
+  margin: 3% 0 3% 15%;
+}
